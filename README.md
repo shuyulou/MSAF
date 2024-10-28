@@ -15,9 +15,13 @@ pytorch==2.0.0
 ### Download:
 
 MVSA: https://mcrlab.net/research/mvsa-sentiment-analysis-on-multi-view-social-data/
+
 HFM: https://github.com/headacheboy/data-of-multimodal-sarcasm-detection
+
 RU-Senti: https://github.com/PhenoixYANG/TOM
+
 Checkpoint of BERT-base: https://huggingface.co/google-bert/bert-base-uncased
+
 Checkpoint of swin_transformer: https://github.com/microsoft/Swin-Transformer
 
 ### Multimodal Knowledge Graph Completion:
