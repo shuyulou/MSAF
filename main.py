@@ -2,7 +2,7 @@ import argparse
 import os
 from train import train
 from test import test
-from heatmap import heatmap
+# from heatmap import heatmap
 from datetime import datetime
 from utils.write import write_to_file
 
@@ -48,7 +48,7 @@ if __name__ == '__main__':
     elif args.mode == 2:
         print('Testing mode is selected')
         test(args)
-    elif args.mode == 3:
-        print('Heatmap mode is selected')
-        heatmap(args)
+    # elif args.mode == 3:
+    #     print('Heatmap mode is selected')
+    #     heatmap(args)
 
