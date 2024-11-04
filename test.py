@@ -1,5 +1,5 @@
 import torch
-from model import TopModel, TopModel_coca
+from model import MSAF
 from tqdm import tqdm
 import numpy as np
 import os
