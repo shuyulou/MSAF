@@ -156,7 +156,7 @@ class ContraryLoss(nn.Module):
 
 class MSAF(nn.Module):
     def __init__(self, args):
-        super(msaf, self).__init__()
+        super(MSAF, self).__init__()
         self.train_dim = args.train_dim
         self.temperature = args.temperature
         self.cls_cross_entropy_loss = nn.CrossEntropyLoss()
